@@ -44,6 +44,7 @@ body {
     background-color: black;
     color: white;
     border: none;
+    border-radius: 10px;
 }
 
 #lets-go-btn:hover {

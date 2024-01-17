@@ -33,6 +33,7 @@ body {
     color: #fff;
     font-size: 30px;
     font-weight: 600;
+    border-radius: 10px;
 } 
 
 #yes-btn:hover {
@@ -40,6 +41,9 @@ body {
 }
 
 #no-btn {
+    position: absolute;
+    left: 750px;
+    z-index: 1;
     width: 240px;
     height: 70px;
     background-color: black;
@@ -47,8 +51,23 @@ body {
     color: #fff;
     font-size: 30px;
     font-weight: 600;
+    border-radius: 10px;
 }
 
 #no-btn:hover {
     cursor: pointer;
+}
+
+#suspicious-img {
+    position: absolute;
+    top: 80px;
+    left: 850px;
+    visibility: hidden;
+}
+
+#suspicious-para {
+    position: absolute;
+    bottom: 5px;
+    font-size: 30px;
+    visibility: hidden;
 }

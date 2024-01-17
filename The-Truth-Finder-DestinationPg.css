@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+#suprised-img {
+    position: absolute;
+    top: 40px;
+    left: 450px;
+}
+
+#suprised-para {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+}
